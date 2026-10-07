@@ -71,42 +71,55 @@ Trade-off: exige revisar e refatorar todas as consultas do projeto (mais trabalh
  
 **Placar do grupo após esta decisão:** 🔥 8 · 💰 R$ 35 mil · 🧹 1
  
+## 3. A noite das contas gêmeas
+ 
+**Tipo:** rodada · **Voto:** B
+ 
+**Justificativa:**
+ 
+Duas contas receberam o mesmo número porque a geração dependia da aplicação, e dois pedidos simultâneos (condição de corrida) podiam ler o mesmo valor. Delegar a geração ao banco (sequence/identity) com restrição `UNIQUE` torna a atribuição atômica e garante número único e sequencial, como o contrato exige.
+ 
+Trade-off: depende do banco e pode deixar lacunas na numeração se uma transação falhar, mas elimina a duplicidade, que é o risco regulatório.
+ 
+**Placar do grupo após esta decisão:** 🔥 8 · 💰 R$ 35 mil · 🧹 2
+ 
 ---
-
+ 
 ## 🔎 O caminho do MEU grupo (preencher na 3ª aula, quando o mapa for revelado)
-
+ 
 | # | Decisão | Nossa letra | Consequência que ELA teria tido |
 |---|---|---|---|
 | | | | |
 | | | | |
 | | | | |
-
+ 
 ---
-
+ 
 # 📋 PÓS-MORTEM · relatório de incidente (montar em sala na 3ª aula)
-
+ 
 ## 1. Linha do tempo da madrugada
-
+ 
 _______________________________________________________________________________________
-
+ 
 ## 2. Causa raiz de 2 incidentes (aula + mecanismo técnico)
-
+ 
 **Incidente 1:** _______________________________________________
-
+ 
 Aula/mecanismo:
-
+ 
 _______________________________________________________________________________________
-
+ 
 **Incidente 2:** _______________________________________________
-
+ 
 Aula/mecanismo:
-
+ 
 _______________________________________________________________________________________
-
+ 
 ## 3. O que faríamos diferente (2 rodadas + por quê)
-
+ 
 _______________________________________________________________________________________
-
+ 
 ## 4. A maior lição da equipe
-
+ 
 _______________________________________________________________________________________
+ 
