@@ -71,6 +71,18 @@ Trade-off: exige revisar e refatorar todas as consultas do projeto (mais trabalh
  
 **Placar do grupo após esta decisão:** 🔥 8 · 💰 R$ 35 mil · 🧹 1
  
+## 2. Relâmpago
+ 
+**Tipo:** relâmpago · **Voto:** A
+ 
+**Justificativa:**
+ 
+O `try-with-resources` fecha automaticamente a conexão (`AutoCloseable`) ao fim do bloco, mesmo se uma exceção for lançada. Isso cumpre a regra de que cada operação usa e libera a conexão e evita vazamento de conexões, que esgota o pool e derruba a API na Black Friday.
+ 
+Trade-off: pequena mudança de código, com baixo risco, comparada a fechar a conexão manualmente num `finally`, que é mais verboso e fácil de esquecer.
+ 
+**Placar do grupo após esta decisão:** 🔥 8 · 💰 R$ 35 mil · 🧹 1
+ 
 ## 3. A noite das contas gêmeas
  
 **Tipo:** rodada · **Voto:** B
