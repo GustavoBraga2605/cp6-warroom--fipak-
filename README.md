@@ -1,7 +1,7 @@
 # cp6-warroom--fipak-
 
 ## 1. Saldo que virou negativo
-**Tipo:** ( **rodada** / relâmpago ) · **Voto:** ( A / B / **C** / D )
+**Tipo:** ( **rodada** ) · **Voto:** ( **C** )
 
 **Justificativa:**
 Corrgir e escrever o teste funciona como uma segunda etapa que testa a assertividade da função.
