@@ -17,7 +17,7 @@ Separa completamente a estrutura do comando SQL, neutralizando a injeção de c�
 
 **Placar do grupo após esta decisão:** 🔥 8 (0) · 💰 R$ 35 mil (0) · 🧹 1 (0)
 
-## 2.RELÂMPAGO
+### 2.RELÂMPAGO
 **Tipo:** ( **relâmpago** ) · **Voto:** ( **A** )
 
 **Justificativa:**
