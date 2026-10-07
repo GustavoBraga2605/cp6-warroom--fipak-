@@ -6,4 +6,13 @@
 **Justificativa:**
 Corrgir e escrever o teste funciona como uma segunda etapa que testa a assertividade da função.
 
-**Placar do grupo após esta decisão:** 🔥 8 · 💰 R$ 35 mil · 🧹 1
+**Placar do grupo após esta decisão:** 🔥 8 (+1) · 💰 R$ 35 mil (+35) · 🧹 1 (-1)
+
+
+## 2. SQL Injection funcionando na busca por titlar
+**Tipo:** ( **rodada** ) · **Voto:** ( **A** )
+
+**Justificativa:**
+Separa completamente a estrutura do comando SQL, neutralizando a injeção de código malicioso na raiz.
+
+**Placar do grupo após esta decisão:** 🔥 8 (0) · 💰 R$ 35 mil (0) · 🧹 1 (0)
